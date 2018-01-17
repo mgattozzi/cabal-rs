@@ -1,0 +1,15 @@
+[package]
+name = "cabal-rs"
+version = "0.0.1"
+authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
+description = "Link in Haskell programs using cabal as part of your build script"
+documentation = "https://docs.rs/cabal-rs"
+homepage = "https://github.com/mgattozzi/cabal-rs"
+repository = "https://github.com/mgattozzi/cabal-rs"
+readme = "README.md"
+keywords = ["Haskell", "Cabal", "FFI"]
+categories = []
+license = "MIT/Apache-2.0"
+
+[dependencies]
+walkdir = "2.0.1"
